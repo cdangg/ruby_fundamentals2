@@ -10,4 +10,8 @@ end
 
 students[:cohort4] = 43
 
+cohort_names = students.keys
+
+puts cohort_names
+
 
