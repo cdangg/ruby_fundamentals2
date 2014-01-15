@@ -17,6 +17,10 @@ puts grocery_list[1]
 grocery_list.sort!
 grocery_list.each {|x| puts "* #{x}"}
 
+grocery_list.delete("salmon")
+
+puts grocery_list
+
 
 
 
