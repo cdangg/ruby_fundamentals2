@@ -7,3 +7,7 @@ students = {
 students.each do |key, value|
 	puts "#{key}: #{value} students"
 end
+
+students[:cohort4] = 43
+
+
