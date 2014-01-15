@@ -19,3 +19,13 @@ puts students
 
 students.delete(:cohort2)
 p students
+
+
+results = 0
+students.each {|key, value| results += value}
+puts results
+
+
+
+
+
