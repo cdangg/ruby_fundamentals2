@@ -14,4 +14,5 @@ cohort_names = students.keys
 
 puts cohort_names
 
-
+students.each {|key, value| students[key] = value * 1.05}
+puts students
